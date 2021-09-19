@@ -23,7 +23,6 @@ public class Principal {
 		System.out.println("El perimetro del rectangulo es: " + rectangulo.calcularPerimetro());
 		System.out.println("La superficie del rectangulo es: " + rectangulo.calcularSuperficie());
 
-
 		System.out.println("");
 
 		Circulo circulo = new Circulo(7);
@@ -32,6 +31,7 @@ public class Principal {
 		System.out.println("La superficie del circulo es: " + circulo.calcularSuperficie());
 
 		System.out.println("");
+
 		Vaso vaso = new Vaso(50, 15);
 		System.out.println("El alto del vaso es: " + vaso.getAlto());
 		System.out.println("El diametro del vaso es: " + vaso.getDiametro());
